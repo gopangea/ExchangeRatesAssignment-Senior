@@ -1,4 +1,3 @@
-using ExchangeRatesAssignment.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +13,6 @@ builder.Services.AddSwaggerGen();
     var services = builder.Services;
     services.Configure<RouteOptions>(options => options.LowercaseUrls = true);
 
-    services.AddScoped<IPartnerRatesRepository, PartnerRatesRepository>();
 }
 
 var app = builder.Build();
