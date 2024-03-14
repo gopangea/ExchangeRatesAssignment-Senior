@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRatesAssignment.Api", "ExchangeRatesAssignment.Api\ExchangeRatesAssignment.Api.csproj", "{2B5DF789-AAF6-4A1B-AA5A-32FC276D574E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRatesAssignment.UnitTests", "ExchangeRatesAssignment.UnitTests\ExchangeRatesAssignment.UnitTests.csproj", "{E33C223E-CEAC-4C9B-94B3-08B45A274A8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B5DF789-AAF6-4A1B-AA5A-32FC276D574E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5DF789-AAF6-4A1B-AA5A-32FC276D574E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5DF789-AAF6-4A1B-AA5A-32FC276D574E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5DF789-AAF6-4A1B-AA5A-32FC276D574E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33C223E-CEAC-4C9B-94B3-08B45A274A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33C223E-CEAC-4C9B-94B3-08B45A274A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33C223E-CEAC-4C9B-94B3-08B45A274A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33C223E-CEAC-4C9B-94B3-08B45A274A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3061798D-7B6D-400E-BD49-DE30A1EF9F50}
+	EndGlobalSection
+EndGlobal
